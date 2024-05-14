@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GroceriesApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".CookingOil"
+            android:exported="true"
+            android:label="@string/title_activity_cooking_oil"
+            android:theme="@style/Theme.GroceriesApp" />
+        <activity
+            android:name=".MeatActivity"
+            android:exported="true"
+            android:label="@string/title_activity_meat"
+            android:theme="@style/Theme.GroceriesApp" />
+        <activity
+            android:name=".EggsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_beverages"
+            android:theme="@style/Theme.GroceriesApp" />
+        <activity
+            android:name=".VegetablesActivity"
+            android:exported="true"
+            android:label="@string/title_activity_vegetables"
+            android:theme="@style/Theme.GroceriesApp" />
+        <activity
+            android:name=".FruitsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_fruits"
+            android:theme="@style/Theme.GroceriesApp" />
+        <activity
+            android:name=".BackeryActivity"
+            android:exported="true"
+            android:label="@string/title_activity_backery"
+            android:theme="@style/Theme.GroceriesApp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GroceriesApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

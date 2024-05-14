@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Golden Groceries</string>
+    <string name="title_activity_backery">BackeryActivity</string>
+    <string name="title_activity_fruits">FruitsActivity</string>
+    <string name="title_activity_vegetables">VegetablesActivity</string>
+    <string name="title_activity_beverages">EggsActivity</string>
+    <string name="title_activity_meat">MeatActivity</string>
+    <string name="title_activity_cooking_oil">CookingOil</string>
+</resources>
